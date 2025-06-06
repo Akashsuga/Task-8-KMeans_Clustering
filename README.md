@@ -1,6 +1,20 @@
 # Task-8-K-Means_Clustering
 # K-Means Clustering on Mall Customer Data
 
+---
+
+## Objective
+Apply K-Means Clustering to segment mall customers into meaningful groups based on demographics and spending habits.
+---
+
+## Repository Structure
+
+- **Mall_Customers.csv** — Original dataset
+- **task_8-kmeans_clustering.py** — Python script for Support Vector Machine (SVM)
+- **task 8.pdf** — Given task
+- **Visual Outputs** — Folder containing all visual plots
+- **README.md** — This documentation
+---
  ## Dataset
 - **Source:** Mall_Customers.csv
 - **Features Used:**
@@ -8,10 +22,7 @@
   - Age
   - Annual Income (k$)
   - Spending Score (1-100)
-
-## Objective
-Apply K-Means Clustering to segment mall customers into meaningful groups based on demographics and spending habits.
-
+---
 ## Key Visuals
 
 ### Elbow Method
@@ -21,7 +32,7 @@ Determines the optimal number of clusters by analyzing inertia.
 
 **Insight:**  
 The elbow is at K=5, which balances model simplicity and effectiveness.
-
+---
 ### Cluster Visualization (PCA)
 Customers grouped in 2D using Principal Component Analysis (PCA).
 
@@ -29,22 +40,16 @@ Customers grouped in 2D using Principal Component Analysis (PCA).
 
 **Observation:**  
 Distinct and well-separated clusters suggest good clustering quality.
-
+---
 ## Evaluation Metric
 
-**Silhouette Score:** for K=5: 0.357
+**Silhouette Score:** for K=5: 0.557
 
 Interpretation: Values above 0.5 are considered good and show well-defined clustering.
 
+---
 ## Cluster-Level Insights
-
-| Cluster | Age | Annual Income (k$) | Spending Score | Gender (1=F) |
-|--------|-----|--------------------|----------------|--------------|
-| 0      | ... | ...                | ...            | ...          |
-| 1      | ... | ...                | ...            | ...          |
-| ...    | ... | ...                | ...            | ...          |
-
-(Full summary available in `cluster_summary.csv`)
+[cluster_summary.csv](https://github.com/user-attachments/files/20629080/cluster_summary.csv)
 
 ## Patterns and Anomalies
 
