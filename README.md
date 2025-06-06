@@ -8,6 +8,13 @@ Apply K-Means Clustering to segment mall customers into meaningful groups based 
 
 ---
 
+## Tools Used
+- Pandas for data handling  
+- Scikit-learn for clustering, PCA, metrics  
+- Matplotlib and Seaborn for visualization
+
+---
+
 ## Repository Structure
 
 - **Mall_Customers.csv** — Original dataset
@@ -46,13 +53,16 @@ Distinct and well-separated clusters suggest good clustering quality.
 ---
 ## Evaluation Metric
 
-**Silhouette Score:** for K=5: 0.557
+**Silhouette Score:**  0.557
 
 Interpretation: Values above 0.5 are considered good and show well-defined clustering.
 
 ---
 ## Cluster-Level Insights
 [cluster_summary.csv](https://github.com/user-attachments/files/20629080/cluster_summary.csv)
+![Clustering Summary](https://github.com/user-attachments/assets/d10ab5d9-6263-471e-ba80-1936d1fa163e)
+
+---
 
 ## Patterns and Anomalies
 
@@ -63,16 +73,11 @@ Interpretation: Values above 0.5 are considered good and show well-defined clust
 **Anomalies:**
 - A small group with very high income but low spending could represent high-income savers or outliers.
 
+---
+
 ## Conclusion
 K-Means successfully segmented mall customers into 5 well-defined groups.  
 These insights can help:
 - Personalize marketing campaigns
 - Improve customer retention
 - Target specific customer groups effectively
-
-## Tools Used
-- Pandas for data handling  
-- Scikit-learn for clustering, PCA, metrics  
-- Matplotlib and Seaborn for visualization
-
-
