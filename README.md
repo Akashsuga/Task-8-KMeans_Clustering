@@ -5,12 +5,13 @@
 
 ## Objective
 Apply K-Means Clustering to segment mall customers into meaningful groups based on demographics and spending habits.
+
 ---
 
 ## Repository Structure
 
 - **Mall_Customers.csv** — Original dataset
-- **task_8-kmeans_clustering.py** — Python script for Support Vector Machine (SVM)
+- **task_8-kmeans_clustering.py** — Python script for unsupervised learening with K-Means Clustering
 - **task 8.pdf** — Given task
 - **Visual Outputs** — Folder containing all visual plots
 - **README.md** — This documentation
@@ -32,6 +33,7 @@ Determines the optimal number of clusters by analyzing inertia.
 
 **Insight:**  
 The elbow is at K=5, which balances model simplicity and effectiveness.
+
 ---
 ### Cluster Visualization (PCA)
 Customers grouped in 2D using Principal Component Analysis (PCA).
@@ -40,6 +42,7 @@ Customers grouped in 2D using Principal Component Analysis (PCA).
 
 **Observation:**  
 Distinct and well-separated clusters suggest good clustering quality.
+
 ---
 ## Evaluation Metric
 
